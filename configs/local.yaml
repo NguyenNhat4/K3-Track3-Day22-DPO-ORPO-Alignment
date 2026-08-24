@@ -1,6 +1,6 @@
 seed: 42
 paths:
-  train_data: data/sample_preferences.jsonl
+  train_data: data/gym_advice.jsonl
   output_dir: outputs
 training:
   method: dpo  # dpo | orpo | mock

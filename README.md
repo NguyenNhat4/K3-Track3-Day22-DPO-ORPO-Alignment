@@ -42,13 +42,19 @@ pip install -e '.[dev,train]'
 | 100-115 min | Implement evaluation and report | `pref-lab evaluate --config configs/local.yaml` |
 | 115-120 min | One-minute demo | `cat outputs/metrics.json` |
 
+## Documentation & Interactive Notebook
+
+- 🚀 [Google Colab Notebook](DPO_ORPO_Preference_Alignment_Lab.ipynb): Interactive notebook ready to import into Google Colab.
+- 📖 [Technical Docs & Step-by-Step Guide](docs/TECHNICAL_DOCS.md): Detailed math, implementation steps, code walkthrough, and troubleshooting for beginners.
+- 📌 [Lab Guide](docs/lab_guide.md): Quick summary of milestones and tasks.
+
 ## Repository layout
 
 ```text
 src/preference_lab/     Python package
 data/                   Small sample preference dataset
 configs/                YAML configs for local experiments
-docs/                   Lab guide, rubric, data card template
+docs/                   Lab guide, technical docs, report template
 scripts/                Utility entrypoints
 tests/                  Unit tests for student work
 ```
